@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: DoubleSquare;
+  src: url('./DOUBLESQUARE-DOWNSTAMP.otf') format('opentype');
+}
+@font-face {
+  font-family: Nurom;
+  src: url('./Nurom-Bold.ttf') format('truetype');
+}
+body{
+  font-family: Nurom;
+}
