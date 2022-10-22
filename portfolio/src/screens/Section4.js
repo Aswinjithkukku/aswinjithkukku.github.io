@@ -43,17 +43,20 @@ function Section4() {
                     <div className="w-px h-full bg-yellow-500" />
                   </div>
                   <div className="pt-1 pb-8 ">
-                    <p className=" text-xl md:text-2xl font-bold ">Software Tester</p>
-                    <p className=" font-medium">company name</p>
-                    <p className="  mb-2">05/2022 </p>
+                    <p className=" text-xl md:text-2xl font-bold ">
+                      Freelance
+                    </p>
+                    <p className="  font-medium ">Dolab.io</p>
+                    <p className="  mb-2">1 year</p>
                     <ul className="md:text-lg  leading-6 ">
                       <li>
-                        Worked on various projects and maintained the codebase
+                      Have 1 year of experience in web development
                       </li>
                       <li>
-                        Worked on various projects and maintained the codebase
+                        Developed both static and dynamic websites for
+                        buisnesses.
                       </li>
-                      <li>Still leaerning new technologies and techniques</li>
+                      <li>Also developed some college projects</li>
                     </ul>
                   </div>
                 </div>
@@ -89,22 +92,21 @@ function Section4() {
                     <div className="w-px h-full bg-yellow-500" />
                   </div>
                   <div className="pt-1 pb-8 ">
-                    <p className=" text-xl md:text-2xl font-bold ">
-                      Freelance Web Developer
-                    </p>
-                    <p className="  font-medium ">Dolab.io</p>
-                    <p className="  mb-2">04/2021 - 04/2022</p>
+                    <p className=" text-xl md:text-2xl font-bold ">Software Tester</p>
+                    <p className=" font-medium">Test Vox</p>
+                    <p className="  mb-2">09/2021 - 11/2021 </p>
                     <ul className="md:text-lg  leading-6 ">
                       <li>
-                        Developed both static and dynamic websites for
-                        buisnesses.
+                      Testvox is a software testing service company located in Calicut
                       </li>
-                      <li>Also developed some college projects</li>
                       <li>
-                        Freelancing helpes me lot in learning deployements.
+                      Worked as a software tester for cosmos project for 2 months as part-time
+
                       </li>
+                      <li>Worked on one Project - Cosmos - virtual meeting application.</li>
                     </ul>
                   </div>
+                  
                 </div>
 
                 <div className="flex  md:mb-16">

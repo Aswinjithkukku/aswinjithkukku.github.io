@@ -12,35 +12,55 @@ import {
   SiMysql,
   SiVisualstudiocode,
   SiTailwindcss,
-  SiJquery,
   SiDjango,
   SiGithub,
-  SiCpanel,
-  SiPostgresql,
   SiBootstrap,
   SiHeroku,
-  SiGnubash,
+  SiExpress,
+  SiNodedotjs,
+  SiReact,
+  SiMongodb,
+  SiRedux,
 } from "react-icons/si";
-import { BsBraces } from "react-icons/bs";
 import { IoSettingsOutline } from "react-icons/io5";
 
 function Section3() {
   const data = [
     {
-      Icon: <SiDjango />,
-      name: "Django",
+      Icon: <SiReact />,
+      name: "React",
     },
     {
-      Icon: <FaPython />,
-      name: "Python",
+      Icon: <SiExpress />,
+      name: "Express",
+    },
+    {
+      Icon: <SiNodedotjs />,
+      name: "Node.js",
+    },
+    {
+      Icon: <SiMongodb />,
+      name: "MongoDB",
+    },
+    {
+      Icon: <SiRedux />,
+      name: "Redux",
+    },
+    {
+      Icon: <FaHtml5 />,
+      name: "HTML5",
+    },
+    {
+      Icon: <FaCss3Alt />,
+      name: "CSS3",
     },
     {
       Icon: <SiTailwindcss />,
       name: "TailwindCSS",
     },
     {
-      Icon: <SiPostgresql />,
-      name: "PostgreSQL",
+      Icon: <SiJavascript />,
+      name: "JavaScript",
     },
     {
       Icon: <FaGitAlt />,
@@ -59,24 +79,8 @@ function Section3() {
       name: "MySQL",
     },
     {
-      Icon: <FaHtml5 />,
-      name: "HTML5",
-    },
-    {
-      Icon: <FaCss3Alt />,
-      name: "CSS3",
-    },
-    {
-      Icon: <SiJavascript />,
-      name: "JavaScript",
-    },
-    {
       Icon: <SiHeroku />,
       name: "Heroku",
-    },
-    {
-      Icon: <SiCpanel />,
-      name: "c-Panel",
     },
     {
       Icon: <SiBootstrap />,
@@ -87,17 +91,14 @@ function Section3() {
       name: "VS Code",
     },
     {
-      Icon: <SiJquery />,
-      name: "jQuery",
+      Icon: <SiDjango />,
+      name: "Django",
     },
     {
-      Icon: <BsBraces />,
-      name: "RESTapi",
+      Icon: <FaPython />,
+      name: "Python",
     },
-    {
-      Icon: <SiGnubash />,
-      name: "Bash",
-    },
+
   ];
 
   return (

@@ -13,3 +13,20 @@
 body{
   font-family: Nurom;
 }
+::-webkit-scrollbar {
+  width: .5em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(43, 43, 43);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 0.25em solid #ffb703;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120 100% 10% / 1);
+}
