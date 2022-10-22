@@ -1,0 +1,142 @@
+.home {
+  background-color: #fbfbfb;
+  width: 100%;
+}
+.blender {
+  width: 100%;
+  height: 100vh;
+}
+/* .primary-color{
+  background-color: #e8e8e8;
+  background: rgb(220,220,220);
+  background: linear-gradient(90deg, rgba(220,220,220,1) 0%, rgba(232,232,232,1) 50%, rgba(217,217,217,1) 100%);
+} */
+/* .color {
+  background-color: #483c46;
+} */
+
+/* section1 starts here */
+.heading {
+  font-family: DoubleSquare;
+}
+.blurname {
+  position: absolute;
+  top: 11vh;
+  left: 15%;
+  opacity: 0.2;
+}
+.data {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  z-index: 1;
+}
+
+.infoName {
+  font-weight: 10rem;
+}
+.infoTitle {
+  font-family: DoubleSquare;
+}
+.character {
+  margin-top: 10%;
+}
+/* section1 ends here */
+/* md:grid grid-cols-2 gap-2 */
+/* section2 starts here */
+.section2heading {
+  font-family: DoubleSquare;
+  color: #ffb703;
+  z-index: 2;
+}
+.absoluteSection2heading {
+  color: #ffb703;
+  opacity: 0.3;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  z-index: 1;
+}
+.absoluteSection2div {
+  top: 7%;
+}
+.box {
+  background-image: linear-gradient(#ffb703, #ffb703),
+    linear-gradient(#ffb703, #ffb703), linear-gradient(#ffb703, #ffb703),
+    linear-gradient(#ffb703, #ffb703);
+  background-repeat: no-repeat;
+  background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px,
+    calc(100% - 8px) calc(100% - 8px);
+  background-position: left bottom, left bottom, right top, right top, 4px 4px;
+
+}
+
+/* section2 ends here */
+
+/* marquee starts here */
+.marqueeText {
+  font-family: DoubleSquare;
+}
+.marqueeText2 {
+  font-family: DoubleSquare;
+  color: #ffb703;
+}
+
+/* marquee ends here */
+
+/* section3 starts here */
+.absoluteSection3 {
+  top: 6.5vh;
+  color: #ffb703;
+  z-index: 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+.section3title {
+  font-family: DoubleSquare;
+  color: #ffb703;
+  z-index: 2;
+}
+.itemText{
+  color: #ffb703;
+}
+
+/* section3 ends here */
+
+/* section4 starts here */
+.absoluteSection4Heading{
+  font-family: DoubleSquare;
+
+}
+
+/* section4 ends here */
+
+/* socials starts here */
+.blue:hover {
+
+/* Created with https://www.css-gradient.com */
+background: #5D75C7;
+background: -webkit-linear-gradient(bottom, #5D75C7, #2B18BC);
+background: -moz-linear-gradient(bottom, #5D75C7, #2B18BC);
+background: linear-gradient(to top, #5D75C7, #2B18BC);
+}
+.insta:hover {
+/* Created with https://www.css-gradient.com */
+background: #E51990;
+background: -webkit-linear-gradient(bottom, #E51990, #B03BD6);
+background: -moz-linear-gradient(bottom, #E51990, #B03BD6);
+background: linear-gradient(to top, #E51990, #B03BD6);
+}
+.git:hover {
+background: rgb(91,91,91);
+background: radial-gradient(circle, rgba(91,91,91,1) 0%, rgba(7,7,7,1) 0%, rgba(91,91,91,1) 100%);
+}
+.absoluteSocialsheading {
+  color: #ffb703;
+  opacity: 0.3;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  z-index: 1;
+}
+/* color */
+.midnight {
+  background-color: rgb(214, 214, 214);
+}
